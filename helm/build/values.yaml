@@ -1,0 +1,15 @@
+app:
+  name: pavithrabada-poi-gateway-app
+  namespace: pavithrabada
+  cluster: .apps.a1jxqhzp.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-deploy/pavithrabada-gateway
+  org: rhdh-deploy
+  name: pavithrabada-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: pavithrabada/poi-gateway-app
+  tag: latest
